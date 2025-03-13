@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
+model = DecisionTreeClassifier(random_state=42)
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
 
